@@ -130,7 +130,7 @@ IService::Pointer ServiceFactory::createInputService(aasdk::messenger::IMessenge
         break;
 
     default:
-        videoGeometry = QRect(0, 0, 800, 480);
+        videoGeometry = QRect(0, 0, 1024, 768);
         break;
     }
 
